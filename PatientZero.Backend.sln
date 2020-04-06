@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientZero.Backend.Api", "PatientZero.Backend.Api\PatientZero.Backend.Api.csproj", "{E75C9C3B-F252-49CB-85B5-3C44F61F62E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08BB76C9-D45D-430A-9C21-151E83B058B5}"
+	ProjectSection(SolutionItems) = preProject
+		deploy-api.yaml = deploy-api.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientZero.Backend.Api.Models", "PatientZero.Backend.Api.Models\PatientZero.Backend.Api.Models.csproj", "{BC6D74E0-363E-4C75-BF7C-7358660A145C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E75C9C3B-F252-49CB-85B5-3C44F61F62E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75C9C3B-F252-49CB-85B5-3C44F61F62E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75C9C3B-F252-49CB-85B5-3C44F61F62E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75C9C3B-F252-49CB-85B5-3C44F61F62E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6D74E0-363E-4C75-BF7C-7358660A145C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6D74E0-363E-4C75-BF7C-7358660A145C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6D74E0-363E-4C75-BF7C-7358660A145C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6D74E0-363E-4C75-BF7C-7358660A145C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F8B1162-15E9-4434-8C34-E20480D8B93F}
+	EndGlobalSection
+EndGlobal
